@@ -1,5 +1,5 @@
 """Escribe un programa que solicite tres lados de un triangulo e indique si es
-equilatero, isoles o escaleno."""
+equilatero, isosceles o escaleno."""
 
 # Solicitar al usuario que ingrese los tres lados del triangulo.
 
@@ -14,7 +14,6 @@ lado_c = int(input("Ingrese el largo en cm del tercer lado del triangulo: "))
 if lado_a == lado_b == lado_c: 
     print("De acuerdo a los lados ingresados el triangulo es EQUILATERO")
 elif lado_a == lado_b or lado_a == lado_c or lado_b == lado_c:
-    print("De acuerdo a los lados ingresados el triangulo es ISOSELES")
+    print("De acuerdo a los lados ingresados el triangulo es ISOSCELES")
 else:
     print("De acuerdo a los lados ingresados el triangulo es ESCALENO")
-
